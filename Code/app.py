@@ -1,9 +1,10 @@
 import streamlit as st
 import pickle
+import pandas as pd
 
 page = st.sidebar.selectbox(
     'Select a page:',
-    ('Home', 'About Predictor', 'Create Lineup'))
+    ('Home', 'About Predictor', 'Create Lineup', 'Test'))
 
 if page == 'Home':
     st.title('Welcome to DFS MLB Lineup Generator')
@@ -42,3 +43,10 @@ if page == 'Create Lineup':
         st.write('The comment you enter is more likely to be found on the sportsbooks subreddit.')
     else:
         st.write('The comment you enter is more likely to be found on the dfsports subreddit.')
+
+if page == 'Test':
+    st.title('Test for file import.')
+    file = st.file_uploader('Upload file', type=['csv'])
+    # read file in as df
+    df = pd.read_csv(file)
+    st.dataframe(df.head(5))
