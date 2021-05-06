@@ -1,6 +1,10 @@
 import streamlit as st
 import pickle
 import pandas as pd
+from LineupBuilder import build_lineup
+import base64
+
+
 
 page = st.sidebar.selectbox(
     'Select a page:',
@@ -49,4 +53,25 @@ if page == 'Test':
     file = st.file_uploader('Upload file', type=['csv'])
     # read file in as df
     df = pd.read_csv(file)
-    st.dataframe(df.head(5))
+    # rewrite df with lineup built from LineupBuilder
+    df = build_lineup(df)
+    # show lineup on screen
+    st.dataframe(df)
+    # create lineup for template to download
+    template = df[['Position', 'Id']]
+    template = template.set_index('Position').T
+    template.rename(columns={'C':'C/1B', '1B':'UTIL'}, inplace=True)
+
+    def get_table_download_link(df):
+        """Generates a link allowing the data in a given panda dataframe to be downloaded
+        in:  dataframe
+        out: href string
+        """
+        csv = df.to_csv(index=False)
+        b64 = base64.b64encode(
+            csv.encode()
+        ).decode()  # some strings <-> bytes conversions necessary here
+        return f'<a href="data:file/csv;base64,{b64}" download="lineup_template.csv">Download csv file</a>'
+
+    st.markdown(get_table_download_link(template), unsafe_allow_html=True)
+    #get_table_download_link(template)
