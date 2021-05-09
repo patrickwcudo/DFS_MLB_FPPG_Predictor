@@ -23,8 +23,8 @@ def modeling_reg(X_train, X_test, y_train, y_test, class_list):
         #acc_score.append(accuracy_score(y_test, classifier.predict(X_test)))
         rmse.append(mean_squared_error(squared=False, y_true=y_test, y_pred=classifier.predict(X_test)))
     # combine into dataframe
-    return pd.DataFrame(data=[train_score, test_score, rmse],
-                 index=['train_score', 'test_score', 'RMSE'],
+    return pd.DataFrame(data=[train_score , test_score, rmse],
+                 index=['R2 Score - Train','R2 Score - Test','RMSE'],
                  columns=[str(c) for c in class_list]).T
 
 
