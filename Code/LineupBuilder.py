@@ -37,7 +37,7 @@ def build_lineup(df):
         pitcher_projections.dropna(inplace=True)
 
         # overwrite df with only the columns needed
-        pitcher_projections = pitcher_projections[['Id', 'Position', 'Name', 'Salary', 'Team_x', 'Opponent', 'Proj_FPPG']]
+        pitcher_projections = pitcher_projections[['Id', 'Position', 'Name', 'Salary', 'Team_x', 'Opponent', 'Projected_FPPG']]
 
         # rename team column
         pitcher_projections.rename(columns={'Team_x' : 'Team'}, inplace=True)
@@ -53,14 +53,17 @@ def build_lineup(df):
         batters_projections.dropna(inplace=True)
 
         # drop unneeded columns for merge with pitcher, overwrite current df
-        batters_projections = batters_projections[['Id', 'Position', 'Name', 'Salary', 'Team', 'Opponent','Proj_FPPG']]
+        batters_projections = batters_projections[['Id', 'Position', 'Name', 'Salary', 'Team_x', 'Opponent','Projected_FPPG']]
+        
+        # rename team column
+        batters_projections.rename(columns={'Team_x' : 'Team'}, inplace=True)
 
         # following are steps for creating a line up
         # set cap for fanduel
         salary_cap = 35_000
 
         # sort pitcher by fppg projections
-        pitcher_projections.sort_values(by='Proj_FPPG', ascending=False, inplace=True, ignore_index=True)
+        pitcher_projections.sort_values(by='Projected_FPPG', ascending=False, inplace=True, ignore_index=True)
 
         # create a player list to 
         lineup = []
@@ -73,7 +76,7 @@ def build_lineup(df):
         # create position list for remaining roster spots
         position_list = ['C', '1B', '2B', '3B', 'SS', 'OF', 'OF', 'OF']
         # sort batters by FPPG
-        batters_projections.sort_values(by='Proj_FPPG', ascending=False, inplace=True, ignore_index=True)
+        batters_projections.sort_values(by='Projected_FPPG', ascending=False, inplace=True, ignore_index=True)
 
         # create count based on remaining positions
         sal_count = 8
@@ -104,7 +107,7 @@ def build_lineup(df):
                     avg_sal = salary_cap/sal_count
                     break
         # create dataframe of lineup
-        df_lineup = pd.DataFrame(lineup, columns=['Id', 'Position', 'Name', 'Salary', 'Team', 'Opponent','Proj_FPPG'])
+        df_lineup = pd.DataFrame(lineup, columns=['Id', 'Position', 'Name', 'Salary', 'Team', 'Opponent','Projected_FPPG'])
 
         # return dataframe
         return df_lineup

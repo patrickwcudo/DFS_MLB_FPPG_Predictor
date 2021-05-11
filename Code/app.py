@@ -40,6 +40,7 @@ if page == 'Create Lineup':
         template = df[['Position', 'Id']]
         template = template.set_index('Position').T
         template.rename(columns={'C':'C/1B', '1B':'UTIL'}, inplace=True)
+        template = template[['P', 'C/1B', '2B', '3B', 'SS', 'OF', 'UTIL']]
 
         def get_table_download_link(df):
             """Generates a link allowing the data in a given panda dataframe to be downloaded
