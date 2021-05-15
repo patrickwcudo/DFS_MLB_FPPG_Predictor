@@ -1,4 +1,4 @@
-## Project 3: Web APIs & NLP
+# MLB Fantasy Points Per Game Predictor
 ---
 ### Table of Contents
 
@@ -40,25 +40,43 @@ In conclusion the final model provided improvement over the baseline RMSE, with 
 
 The baseline model was constructed with the average fantasy points per game of the training data set for each position group.  The figure below provides a visual of the average and RMSE for each group.
 
-Figure 
+
+![Figure 1](./Images/rmse_baseline.png) 
+
 
 #### Search for the Best Model
 
 The next step in the modeling phase is to use the data with multiple regressors and compare to the baseline.  Figure 2, below shows the batter data and the score for each regressor.  The baseline is the red line and the graph shows us that each regressor improved upon the baseline but linear regression performed the best with a RSME of 2.0962.  This is a 31.9% improvement over the baseline.  Figure 3 shows the predictions plotted against the actuals for the data set and shows some heteroscedasticity.  The heteroscedasticity shows that outliers could have been handled differently, but overall still a good improvement over the baseline.
 
-Graph - figure 2
-Graph figure 3
+![Figure 2](./Images/batter_baseline.png)
+
+![Figure 3](./Images/batter_preds.png)
+
 
 This same process was followed for the pitcher data.  Figure 4, below shows us the pitcher data and the score for each regressor.  The baseline is the red line and the graph shows us that some regressors actually performed worse than the baseline, but some did very well.  Random forest regressor did the best with a RMSE of 6.147, which is a 34.2% improvement over  the baseline.  Below, figure 5, shows the predictions from the random forest regressor, in which there is more evidence of heteroscedasticity with the pitcher data than the batter data.  
 
-Graph figure 4
-Graph figure 5
+![Figure 4](./Images/pitcher_baseline.png)
+
+![Figure 5](./Images/pitcher_preds.png)
+
 
 #### GLM
 
 A generalized linear model was used with both data sets to help gain statistical inference on the data.  The top coefficient values are shown in figure 6, below.
 
-Graph figure 6
+
+|Feature|Coefficient Value|
+|---|---|
+|BB - walks | 30.8697 |
+|SO - strikeouts | 4.359 |
+|IP - Innings Pitched | 30.8697 |
+
+|Feature|Coefficient Value|
+|---|---|
+|AB - at-bats | 3.8836 |
+|R - runs | 1.1378 |
+|RBI - runs batted in| 1.0872 |
+
 
 ---
 
