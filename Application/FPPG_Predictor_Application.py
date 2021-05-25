@@ -9,7 +9,6 @@ from bokeh.transform import factor_cmap
 from pathlib import Path
 
 
-
 page = st.sidebar.selectbox(
     'Select a page:',
     ('Home', 'Position Analysis', 'Create Lineup', 'Create Lineup Stack'))
@@ -30,11 +29,12 @@ if page == 'Position Analysis':
     st.header('Below is a plot showing all positions and their actual vs projected FPPG.')
     st.write('')
 
-    file_paths = sorted([p.as_posix() for p in Path('data').iterdir()], reverse=True)
-    st.write(file_paths)
+    # file path
+    all_players_csv = Path(__file__).parents[0] / 'data/all_players.csv'
 
-
-    players = pd.read_csv('all_players.csv')
+    # use path object to read file
+    players = pd.read_csv(all_players_csv)
+    
     #st.write('Pick a Position below to gain more insight.')
     pos_input = st.selectbox(label='Pick a Position below to gain more insight.  Interact with features on right of plot to zoom and save.', 
     options=['All', 'SP', 'C', '1B', '2B', 'SS', '3B', 'OF'])
