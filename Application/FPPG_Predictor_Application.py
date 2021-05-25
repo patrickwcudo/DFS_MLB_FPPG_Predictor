@@ -28,7 +28,7 @@ if page == 'Position Analysis':
     st.title("Position Analysis")
     st.header('Below is a plot showing all positions and their actual vs projected FPPG.')
     st.write('')
-    players = pd.read_csv('../Projections/all_players.csv')
+    players = pd.read_csv('all_players.csv')
     #st.write('Pick a Position below to gain more insight.')
     pos_input = st.selectbox(label='Pick a Position below to gain more insight.  Interact with features on right of plot to zoom and save.', 
     options=['All', 'SP', 'C', '1B', '2B', 'SS', '3B', 'OF'])
