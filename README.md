@@ -16,7 +16,7 @@
 
 The goal of this project is to build a regression model to predict fantasy points per game for MLB players in the current 2021 season.  This model will be evaluated using RMSE and the model should improve upon the baseline by at least 25%.  The model’s predictions and coefficients will be used to create a lineup building application. The application will provide a MLB daily fantasy lineup for a user.  This product is geared towards companies that provide services to fantasy players.  The product can be used in trial periods for potential users or as a product offered to existing users. 
 
-#### Product Application: 
+### [Product Application Link](https://share.streamlit.io/patrickwcudo/dfs_mlb_fppg_predictor/Application/FPPG_Predictor_Application.py)
 
 ---
 
