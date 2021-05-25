@@ -6,6 +6,7 @@ from bokeh.plotting import figure
 from bokeh.models import LabelSet, Label, ColumnDataSource
 from bokeh.io import show
 from bokeh.transform import factor_cmap
+from pathlib import Path
 
 
 
@@ -28,7 +29,9 @@ if page == 'Position Analysis':
     st.title("Position Analysis")
     st.header('Below is a plot showing all positions and their actual vs projected FPPG.')
     st.write('')
-    players = pd.read_csv('all_players.csv')
+    file_path = Path('data')
+    st.write(file_path)
+    players = pd.read_csv('data/all_players.csv')
     #st.write('Pick a Position below to gain more insight.')
     pos_input = st.selectbox(label='Pick a Position below to gain more insight.  Interact with features on right of plot to zoom and save.', 
     options=['All', 'SP', 'C', '1B', '2B', 'SS', '3B', 'OF'])
