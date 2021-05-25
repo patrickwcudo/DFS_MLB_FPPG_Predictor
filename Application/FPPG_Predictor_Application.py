@@ -31,7 +31,7 @@ if page == 'Position Analysis':
     st.write('')
     file_path = Path('data')
     st.write(file_path)
-    players = pd.read_csv('data/all_players.csv')
+    players = pd.read_csv('https://github.com/patrickwcudo/DFS_MLB_FPPG_Predictor/blob/master/Application/data/all_players.csv')
     #st.write('Pick a Position below to gain more insight.')
     pos_input = st.selectbox(label='Pick a Position below to gain more insight.  Interact with features on right of plot to zoom and save.', 
     options=['All', 'SP', 'C', '1B', '2B', 'SS', '3B', 'OF'])
