@@ -2,6 +2,7 @@
 def build_lineup(df):
         # imports
         import pandas as pd
+        from pathlib import Path
         # clean up fd to match column list above
         df.drop(columns=['First Name', 'Last Name', 'FPPG', 'Played', 'Injury Details', 'Tier', 'Batting Order', 'Roster Position'], inplace=True)
 
@@ -27,8 +28,10 @@ def build_lineup(df):
         # save pitchers df to only starting pitchers
         pitchers = pitchers.loc[pitchers['Probable Pitcher']=='Yes']
 
-        # read in pitcher projections
-        pitcher_proj = pd.read_csv('pitcher_projections_2021.csv')
+        # read in pitcher projections using pathlib
+        # file path
+        pitcher_csv = Path(__file__).parents[0] / 'data/pitcher_projections_2021.csv'
+        pitcher_proj = pd.read_csv(pitcher_csv)
 
         # merge attempt
         pitcher_projections = pitchers.merge(pitcher_proj, how='left', on='Name')
@@ -43,8 +46,11 @@ def build_lineup(df):
         pitcher_projections.rename(columns={'Team_x' : 'Team'}, inplace=True)
 
         # batter dataframe steps
-        # read in projections file
-        batter_21 = pd.read_csv('batter_projections_2021.csv')
+        # read in pitcher projections using pathlib
+        # file path
+        batter_csv = Path(__file__).parents[0] / 'data/batter_projections_2021.csv'
+        #read using pandas
+        batter_21 = pd.read_csv(batter_csv)
 
         # merge projections with batter df, creating new df
         batters_projections = batters.merge(batter_21, how='left', on='Name')
@@ -115,6 +121,9 @@ def build_lineup(df):
 def build_lineup_stack(df):
         # imports 
         import pandas as pd
+        #pathlib
+        from pathlib import Path
+        
         # clean up fd to match column list above
         df.drop(columns=['First Name', 'Last Name', 'FPPG', 'Played', 'Injury Details', 'Tier', 'Batting Order', 'Roster Position'], inplace=True)
 
@@ -140,8 +149,10 @@ def build_lineup_stack(df):
         # save pitchers df to only starting pitchers
         pitchers = pitchers.loc[pitchers['Probable Pitcher']=='Yes']
 
+        # file path
+        pitcher_csv = Path(__file__).parents[0] / 'data/pitcher_projections_2021.csv'
         # read in pitcher projections
-        pitcher_proj = pd.read_csv('pitcher_projections_2021.csv')
+        pitcher_proj = pd.read_csv(pitcher_csv)
 
         # merge attempt
         pitcher_projections = pitchers.merge(pitcher_proj, how='left', on='Name')
@@ -155,9 +166,11 @@ def build_lineup_stack(df):
         # rename team column
         pitcher_projections.rename(columns={'Team_x' : 'Team'}, inplace=True)
 
-        # batter dataframe steps
+        # read in pitcher projections using pathlib
+        # file path
+        batter_csv = Path(__file__).parents[0] / 'data/batter_projections_2021.csv'
         # read in projections file
-        batter_21 = pd.read_csv('batter_projections_2021.csv')
+        batter_21 = pd.read_csv(batter_csv)
 
         # merge projections with batter df, creating new df
         batters_projections = batters.merge(batter_21, how='left', on='Name')

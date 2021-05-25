@@ -34,7 +34,7 @@ if page == 'Position Analysis':
 
     # use path object to read file
     players = pd.read_csv(all_players_csv)
-    
+
     #st.write('Pick a Position below to gain more insight.')
     pos_input = st.selectbox(label='Pick a Position below to gain more insight.  Interact with features on right of plot to zoom and save.', 
     options=['All', 'SP', 'C', '1B', '2B', 'SS', '3B', 'OF'])
@@ -80,35 +80,35 @@ if page == 'Create Lineup':
     st.title('Import player list from FanDuel.')
     file = st.file_uploader('Upload file', type=['csv'])
     # read file in as df in try except form
-#try:
-    df = pd.read_csv(file)
-    # rewrite df with lineup built from LineupBuilder
-    df = build_lineup(df)
-    # describe lineup
-    st.write('Lineup below is based on the highest predicted FPPG per position while staying under the salary cap.')
-    # show lineup on screen
-    st.dataframe(df)
-    # create lineup for template to download
-    template = df[['Position', 'Id']]
-    template = template.set_index('Position').T
-    template.rename(columns={'C':'C/1B', '1B':'UTIL'}, inplace=True)
-    template = template[['P', 'C/1B', '2B', '3B', 'SS', 'OF', 'UTIL']]
+    try:
+        df = pd.read_csv(file)
+        # rewrite df with lineup built from LineupBuilder
+        df = build_lineup(df)
+        # describe lineup
+        st.write('Lineup below is based on the highest predicted FPPG per position while staying under the salary cap.')
+        # show lineup on screen
+        st.dataframe(df)
+        # create lineup for template to download
+        template = df[['Position', 'Id']]
+        template = template.set_index('Position').T
+        template.rename(columns={'C':'C/1B', '1B':'UTIL'}, inplace=True)
+        template = template[['P', 'C/1B', '2B', '3B', 'SS', 'OF', 'UTIL']]
 
-    def get_table_download_link(df):
-        """Generates a link allowing the data in a given panda dataframe to be downloaded
-        in:  dataframe
-        out: href string
-        """
-        csv = df.to_csv(index=False)
-        b64 = base64.b64encode(
-            csv.encode()
-        ).decode()  # some strings <-> bytes conversions necessary here
-        return f'<a href="data:file/csv;base64,{b64}" download="lineup_template.csv">Download Template as csv file</a>'
+        def get_table_download_link(df):
+            """Generates a link allowing the data in a given panda dataframe to be downloaded
+            in:  dataframe
+            out: href string
+            """
+            csv = df.to_csv(index=False)
+            b64 = base64.b64encode(
+                csv.encode()
+            ).decode()  # some strings <-> bytes conversions necessary here
+            return f'<a href="data:file/csv;base64,{b64}" download="lineup_template.csv">Download Template as csv file</a>'
 
-    st.markdown(get_table_download_link(template), unsafe_allow_html=True)
-    #get_table_download_link(template)
-#except:
-    st.title('No file imported.')
+        st.markdown(get_table_download_link(template), unsafe_allow_html=True)
+        #get_table_download_link(template)
+    except:
+        st.title('No file imported.')
 
 if page == 'Create Lineup Stack':
     st.title('Import player list from FanDuel.')

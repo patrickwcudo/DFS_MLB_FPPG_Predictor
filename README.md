@@ -112,6 +112,7 @@ There are some points of improvement in this project.  The use of feature engine
     * 04_PlayerList_Function - python notebook detailing the workflow of the lineup builder functions included in LineupBuilderFunction.py
     * FPPG_Predictor_Application - the final streamlit application
     * LineupBuilderFunction - python file that contains the lineup builders functions used in the streamlit application
+    * data - folder containing csv files used in application, contained here to deploy on streamlit
 
 * Code: 
     * 01_Combine_function - contains function used to combine data sets into the training and testing sets for each position group
