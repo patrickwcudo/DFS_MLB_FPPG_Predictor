@@ -1,7 +1,6 @@
 import streamlit as st
-import pickle
 import pandas as pd
-from LineupBuilder import build_lineup, build_lineup_stack
+from LineupBuilderFunction import build_lineup, build_lineup_stack
 import base64
 from bokeh.plotting import figure
 from bokeh.models import LabelSet, Label, ColumnDataSource

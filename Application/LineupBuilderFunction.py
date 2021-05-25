@@ -28,7 +28,7 @@ def build_lineup(df):
         pitchers = pitchers.loc[pitchers['Probable Pitcher']=='Yes']
 
         # read in pitcher projections
-        pitcher_proj = pd.read_csv('../../Projections/pitcher_projections_2021.csv')
+        pitcher_proj = pd.read_csv('../Projections/pitcher_projections_2021.csv')
 
         # merge attempt
         pitcher_projections = pitchers.merge(pitcher_proj, how='left', on='Name')
@@ -44,7 +44,7 @@ def build_lineup(df):
 
         # batter dataframe steps
         # read in projections file
-        batter_21 = pd.read_csv('../../Projections/batter_projections_2021.csv')
+        batter_21 = pd.read_csv('../Projections/batter_projections_2021.csv')
 
         # merge projections with batter df, creating new df
         batters_projections = batters.merge(batter_21, how='left', on='Name')
@@ -141,7 +141,7 @@ def build_lineup_stack(df):
         pitchers = pitchers.loc[pitchers['Probable Pitcher']=='Yes']
 
         # read in pitcher projections
-        pitcher_proj = pd.read_csv('../../Projections/pitcher_projections_2021.csv')
+        pitcher_proj = pd.read_csv('../Projections/pitcher_projections_2021.csv')
 
         # merge attempt
         pitcher_projections = pitchers.merge(pitcher_proj, how='left', on='Name')
@@ -157,7 +157,7 @@ def build_lineup_stack(df):
 
         # batter dataframe steps
         # read in projections file
-        batter_21 = pd.read_csv('../../Projections/batter_projections_2021.csv')
+        batter_21 = pd.read_csv('../Projections/batter_projections_2021.csv')
 
         # merge projections with batter df, creating new df
         batters_projections = batters.merge(batter_21, how='left', on='Name')

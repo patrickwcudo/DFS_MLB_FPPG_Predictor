@@ -16,6 +16,8 @@
 
 The goal of this project is to build a regression model to predict fantasy points per game for MLB players in the current 2021 season.  This model will be evaluated using RMSE and the model should improve upon the baseline by at least 25%.  The model’s predictions and coefficients will be used to create a lineup building application. The application will provide a MLB daily fantasy lineup for a user.  This product is geared towards companies that provide services to fantasy players.  The product can be used in trial periods for potential users or as a product offered to existing users. 
 
+#### Product Application: 
+
 ---
 
 ### Executive Summary
@@ -48,14 +50,14 @@ The baseline model was constructed with the average fantasy points per game of t
 
 The next step in the modeling phase is to use the data with multiple regressors and compare to the baseline.  Figure 2, below shows the batter data and the score for each regressor.  The baseline is the red line and the graph shows us that each regressor improved upon the baseline but linear regression performed the best with a RSME of 2.0962.  This is a 31.9% improvement over the baseline.  Figure 3 shows the predictions plotted against the actuals for the data set and shows some heteroscedasticity.  The heteroscedasticity shows that outliers could have been handled differently, but overall still a good improvement over the baseline.
 
-![Figure 2](./Images/batter_baseline.png)
+![Figure 2](./Images/batter_rmse.png)
 
 ![Figure 3](./Images/batter_preds.png)
 
 
 This same process was followed for the pitcher data.  Figure 4, below shows us the pitcher data and the score for each regressor.  The baseline is the red line and the graph shows us that some regressors actually performed worse than the baseline, but some did very well.  Random forest regressor did the best with a RMSE of 6.147, which is a 34.2% improvement over  the baseline.  Below, figure 5, shows the predictions from the random forest regressor, in which there is more evidence of heteroscedasticity with the pitcher data than the batter data.  
 
-![Figure 4](./Images/pitcher_baseline.png)
+![Figure 4](./Images/pitcher_rmse.png)
 
 ![Figure 5](./Images/pitcher_preds.png)
 
@@ -84,6 +86,12 @@ A generalized linear model was used with both data sets to help gain statistical
 
 The application createion process was completed using Streamlit.  The workflow for the application starts when a user imports a player list.  The application then matches up the players with their respective predictions.  Next, the application sorts by fantasy points and iterates through each positon picking the highest player if that player’s salary is less than the average remaining salary cap.  The application will then output a dataframe with the lineup and projections.  The user also as the ability to download a csv file to upload the lineup to fantasy sports websites.
 
+The application also gives the user the ability to explore the projections for each position on the position analysis page.  This page outputs a scatter plot using the Bokeh library.  The user can select all positions and show all positions at once.  This can give the user more insight into the projections.
+
+The Lineup Builder Function is what the application uses to build a line up for the user.  The function takes the inputted player list and matches up the FPPG projections for each player.  Once this is completed the function takes the highest projected pitcher and adds that player to the line up first.  Next the function works through the rest of the positions making sure to select the highest projected FPPG for that position as long as it is not greater than the remaining average salary.  Finally the line up is saved to a dataframe and outputted for the user to view.  The application also provides a template the user can take to the fantasy sports site and upload to play in a contest.  
+
+Another page provided on the application is the Create Lineup Stack.  This page is similar to the Create Lineup page but takes the 4 lowest projected pitchers and creates a list of teams those pitchers are facing.  The function then only selects players from those teams using the same logic described in the lineup builder function.  This gives the user another option to select based on pitching match ups.
+
 ---
 
 ### Conclusion and Recommendations
@@ -100,8 +108,12 @@ There are some points of improvement in this project.  The use of feature engine
 
 #### Folders/Files
 
+* Application:
+    * 04_PlayerList_Function - python notebook detailing the workflow of the lineup builder functions included in LineupBuilderFunction.py
+    * FPPG_Predictor_Application - the final streamlit application
+    * LineupBuilderFunction - python file that contains the lineup builders functions used in the streamlit application
+
 * Code: 
-    * App - folder containing files to create application
     * 01_Combine_function - contains function used to combine data sets into the training and testing sets for each position group
     * 02_Modeling - contains the modeling for both pitcher and batters and file where predicitons were made
     * 03_GLM - generalized linear model used to analyze coefficient values
