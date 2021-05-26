@@ -41,26 +41,38 @@ In conclusion the final model provided improvement over the baseline RMSE, with 
 #### Baseline
 
 The baseline model was constructed with the average fantasy points per game of the training data set for each position group.  The figure below provides a visual of the average and RMSE for each group.
-
-
-![Figure 1](./Images/rmse_baseline.png) 
-
+ 
+<div align='center'>
+    <h5>Figure 1</h5>
+    <img src='Images/rmse_baseline.png'>
+</div>
 
 #### Search for the Best Model
 
 The next step in the modeling phase is to use the data with multiple regressors and compare to the baseline.  Figure 2, below shows the batter data and the score for each regressor.  The baseline is the red line and the graph shows us that each regressor improved upon the baseline but linear regression performed the best with a RSME of 2.0962.  This is a 31.9% improvement over the baseline.  Figure 3 shows the predictions plotted against the actuals for the data set and shows some heteroscedasticity.  The heteroscedasticity shows that outliers could have been handled differently, but overall still a good improvement over the baseline.
 
-![Figure 2](./Images/batter_rmse.png)
+<div align='center'>
+    <h5>Figure 2</h5>
+    <img src='Images/batter_rmse.png', width='600', height='250'>
+</div>
 
-![Figure 3](./Images/batter_preds.png)
+<div align='center'>
+    <h5>Figure 3</h5>
+    <img src='Images/batter_preds.png', width='600', height='250'>
+</div>
 
 
 This same process was followed for the pitcher data.  Figure 4, below shows us the pitcher data and the score for each regressor.  The baseline is the red line and the graph shows us that some regressors actually performed worse than the baseline, but some did very well.  Random forest regressor did the best with a RMSE of 6.147, which is a 34.2% improvement over  the baseline.  Below, figure 5, shows the predictions from the random forest regressor, in which there is more evidence of heteroscedasticity with the pitcher data than the batter data.  
 
-![Figure 4](./Images/pitcher_rmse.png)
+<div align='center'>
+    <h5>Figure 4</h5>
+    <img src='Images/pitcher_rmse.png', width='600', height='250'>
+</div>
 
-![Figure 5](./Images/pitcher_preds.png)
-
+<div align='center'>
+    <h5>Figure 5</h5>
+    <img src='Images/pitcher_preds.png', width='600', height='250'>
+</div>
 
 #### GLM
 
