@@ -78,7 +78,7 @@ This same process was followed for the pitcher data.  Figure 4, below shows us t
 
 A generalized linear model was used with both data sets to help gain statistical inference on the data.  The top coefficient values are shown in figure 6, below.
 
-
+ 
 |Feature|Coefficient Value|
 |---|---|
 |BB - walks | 30.8697 |
@@ -90,7 +90,7 @@ A generalized linear model was used with both data sets to help gain statistical
 |AB - at-bats | 3.8836 |
 |R - runs | 1.1378 |
 |RBI - runs batted in| 1.0872 |
-
+    
 
 ---
 
