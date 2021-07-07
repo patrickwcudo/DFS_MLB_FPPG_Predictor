@@ -30,7 +30,7 @@ def build_lineup(df):
 
         # read in pitcher projections using pathlib
         # file path
-        pitcher_csv = Path(__file__).parents[0] / 'data/pitcher_projections_2021.csv'
+        pitcher_csv = Path(__file__).parents[0] / 'data/pitcher_projections_2021-Copy1.csv'
         pitcher_proj = pd.read_csv(pitcher_csv)
 
         # merge attempt
@@ -48,7 +48,7 @@ def build_lineup(df):
         # batter dataframe steps
         # read in pitcher projections using pathlib
         # file path
-        batter_csv = Path(__file__).parents[0] / 'data/batter_projections_2021.csv'
+        batter_csv = Path(__file__).parents[0] / 'data/batter_projections_2021-Copy1.csv'
         #read using pandas
         batter_21 = pd.read_csv(batter_csv)
 
@@ -150,7 +150,7 @@ def build_lineup_stack(df):
         pitchers = pitchers.loc[pitchers['Probable Pitcher']=='Yes']
 
         # file path
-        pitcher_csv = Path(__file__).parents[0] / 'data/pitcher_projections_2021.csv'
+        pitcher_csv = Path(__file__).parents[0] / 'data/pitcher_projections_2021-Copy1.csv'
         # read in pitcher projections
         pitcher_proj = pd.read_csv(pitcher_csv)
 
@@ -168,7 +168,7 @@ def build_lineup_stack(df):
 
         # read in pitcher projections using pathlib
         # file path
-        batter_csv = Path(__file__).parents[0] / 'data/batter_projections_2021.csv'
+        batter_csv = Path(__file__).parents[0] / 'data/batter_projections_2021-Copy1.csv'
         # read in projections file
         batter_21 = pd.read_csv(batter_csv)
 
