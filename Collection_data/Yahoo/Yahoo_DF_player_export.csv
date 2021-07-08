@@ -1,0 +1,500 @@
+ID,First Name,Last Name,Position,Team,Opponent,Game,Time,Salary,FPPG,Probable Pitcher,Injury Status,Starting
+mlb.p.7977,Andrew,McCutchen,OF,PHI,CHC,PHI@CHC,8:05PM EDT,19,8.3," "," "," "
+mlb.p.8821,Brandon,Kintzler,P,PHI,CHC,PHI@CHC,8:05PM EDT,25,1.8,No," ",No
+mlb.p.8873,Matt,Moore,P,PHI,CHC,PHI@CHC,8:05PM EDT,25,4.8,No," ",No
+mlb.p.8875,Bryce,Harper,OF,PHI,CHC,PHI@CHC,8:05PM EDT,21,9.3," "," "," "
+mlb.p.9124,Zack,Wheeler,P,PHI,CHC,PHI@CHC,8:05PM EDT,52,28.1,No," ",No
+mlb.p.9247,Jean,Segura,2B,PHI,CHC,PHI@CHC,8:05PM EDT,17,7.5," "," "," "
+mlb.p.9282,Didi,Gregorius,SS,PHI,CHC,PHI@CHC,8:05PM EDT,15,6.4," "," "," "
+mlb.p.9446,Brad,Miller,2B,PHI,CHC,PHI@CHC,8:05PM EDT,7,4.4," "," "," "
+mlb.p.9542,Archie,Bradley,P,PHI,CHC,PHI@CHC,8:05PM EDT,25,2.2,No," ",No
+mlb.p.9718,J.T.,Realmuto,C,PHI,CHC,PHI@CHC,8:05PM EDT,12,7.2," "," "," "
+mlb.p.9779,Hector,Neris,P,PHI,CHC,PHI@CHC,8:05PM EDT,25,2.8,No," ",No
+mlb.p.9882,Aaron,Nola,P,PHI,CHC,PHI@CHC,8:05PM EDT,36,20.1,No," ",No
+mlb.p.9906,Odubel,Herrera,OF,PHI,CHC,PHI@CHC,8:05PM EDT,10,6.6," ",DTD," "
+mlb.p.9992,Vince,Velasquez,P,PHI,CHC,PHI@CHC,8:05PM EDT,31,12.7,No," ",No
+mlb.p.10050,Travis,Jankowski,OF,PHI,CHC,PHI@CHC,8:05PM EDT,9,3.2," "," "," "
+mlb.p.10088,Ronald,Torreyes,SS,PHI,CHC,PHI@CHC,8:05PM EDT,7,4.4," "," "," "
+mlb.p.10141,Zach,Eflin,P,PHI,CHC,PHI@CHC,8:05PM EDT,35,17.6,Yes," ",Yes
+mlb.p.10555,Andrew,Knapp,C,PHI,CHC,PHI@CHC,8:05PM EDT,7,2.9," "," "," "
+mlb.p.10556,Rhys,Hoskins,1B,PHI,CHC,PHI@CHC,8:05PM EDT,18,8.2," "," "," "
+mlb.p.10692,Jose,Alvarado,P,PHI,CHC,PHI@CHC,8:05PM EDT,25,3.7,No," ",No
+mlb.p.11064,Enyel,De Los Santos,P,PHI,CHC,PHI@CHC,8:05PM EDT,25,3.0,No," ",No
+mlb.p.11117,Ranger,Suarez,P,PHI,CHC,PHI@CHC,8:05PM EDT,25,7.4,No," ",No
+mlb.p.11365,Alec,Bohm,3B,PHI,CHC,PHI@CHC,8:05PM EDT,13,5.7," "," "," "
+mlb.p.11955,Connor,Brogdon,P,PHI,CHC,PHI@CHC,8:05PM EDT,25,3.1,No," ",No
+mlb.p.12104,Bailey,Falter,P,PHI,CHC,PHI@CHC,8:05PM EDT,25,6.6,No," ",No
+mlb.p.12207,Luke,Williams,2B,PHI,CHC,PHI@CHC,8:05PM EDT,7,3.5," "," "," "
+mlb.p.10213,Sam,Coonrod,P,PHI,CHC,PHI@CHC,8:05PM EDT,25,3.3,No,IL10,No
+mlb.p.8239,Matt,Joyce,OF,PHI,CHC,PHI@CHC,8:05PM EDT,7,2.2," ",IL10," "
+mlb.p.9698,Chase,Anderson,P,PHI,CHC,PHI@CHC,8:05PM EDT,29,5.5,No,COVID,No
+mlb.p.10140,Roman,Quinn,OF,PHI,CHC,PHI@CHC,8:05PM EDT,7,3.6," ",IL60," "
+mlb.p.10931,JoJo,Romero,P,PHI,CHC,PHI@CHC,8:05PM EDT,25,1.2,No,IL60,No
+mlb.p.11011,Seranthony,Dominguez,P,PHI,CHC,PHI@CHC,8:05PM EDT,25,0.0,No,IL60,No
+mlb.p.8621,Jason,Heyward,OF,CHC,PHI,PHI@CHC,8:05PM EDT,11,5.0," "," "," "
+mlb.p.8622,Craig,Kimbrel,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,5.6,No," ",No
+mlb.p.8623,Jake,Arrieta,P,CHC,PHI,PHI@CHC,8:05PM EDT,26,9.3,No,IL10,No
+mlb.p.8828,Eric,Sogard,3B,CHC,PHI,PHI@CHC,8:05PM EDT,7,3.0," ",IL10," "
+mlb.p.8868,Anthony,Rizzo,1B,CHC,PHI,PHI@CHC,8:05PM EDT,13,7.1," "," "," "
+mlb.p.8944,Rex,Brothers,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,4.1,No," ",No
+mlb.p.8990,Robinson,Chirinos,C,CHC,PHI,PHI@CHC,8:05PM EDT,7,7.1," "," "," "
+mlb.p.9313,Rafael,Ortega,OF,CHC,PHI,PHI@CHC,8:05PM EDT,7,3.1," "," "," "
+mlb.p.9340,Jake,Marisnick,OF,CHC,PHI,PHI@CHC,8:05PM EDT,7,4.6," "," "," "
+mlb.p.9414,Joc,Pederson,OF,CHC,PHI,PHI@CHC,8:05PM EDT,13,6.6," "," "," "
+mlb.p.9557,Javier,Baez,SS,CHC,PHI,PHI@CHC,8:05PM EDT,18,8.3," ",DTD," "
+mlb.p.9558,Kris,Bryant,OF,CHC,PHI,PHI@CHC,8:05PM EDT,10,8.3," ",DTD," "
+mlb.p.9758,Kyle,Hendricks,P,CHC,PHI,PHI@CHC,8:05PM EDT,47,17.4,No," ",No
+mlb.p.9782,Andrew,Chafin,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,3.6,No," ",No
+mlb.p.9910,Dan,Winkler,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,3.2,No," ",No
+mlb.p.10005,Adam,Morgan,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,0.7,No," ",No
+mlb.p.10070,Zach,Davies,P,CHC,PHI,PHI@CHC,8:05PM EDT,38,10.9,No," ",No
+mlb.p.10166,Willson,Contreras,C,CHC,PHI,PHI@CHC,8:05PM EDT,11,6.9," "," "," "
+mlb.p.10297,Alec,Mills,P,CHC,PHI,PHI@CHC,8:05PM EDT,26,6.8,No," ",No
+mlb.p.10440,Ian,Happ,OF,CHC,PHI,PHI@CHC,8:05PM EDT,7,5.2," "," "," "
+mlb.p.10858,Adbert,Alzolay,P,CHC,PHI,PHI@CHC,8:05PM EDT,34,17.1,Yes," ",Yes
+mlb.p.11093,Patrick,Wisdom,3B,CHC,PHI,PHI@CHC,8:05PM EDT,8,6.9," "," "," "
+mlb.p.11164,Brad,Wieck,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,5.9,No," ",No
+mlb.p.11284,Nico,Hoerner,2B,CHC,PHI,PHI@CHC,8:05PM EDT,12,7.0," "," "," "
+mlb.p.11287,Keegan,Thompson,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,5.7,No," ",No
+mlb.p.8521,Jose,Lobaton,C,CHC,PHI,PHI@CHC,8:05PM EDT,7,1.2," ",IL60," "
+mlb.p.9959,Ryan,Tepera,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,3.7,No,IL10,No
+mlb.p.10803,Dillon,Maples,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,5.4,No,IL10,No
+mlb.p.11949,P.J.,Higgins,C,CHC,PHI,PHI@CHC,8:05PM EDT,7,1.1," ",IL60," "
+mlb.p.10999,David,Bote,3B,CHC,PHI,PHI@CHC,8:05PM EDT,9,4.9," ",IL10," "
+mlb.p.10144,Trevor,Williams,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,11.7,No," ",No
+mlb.p.9775,Matt,Duffy,3B,CHC,PHI,PHI@CHC,8:05PM EDT,7,4.9," ",IL60," "
+mlb.p.11202,Justin,Steele,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,6.3,No,IL10,No
+mlb.p.9082,Austin,Romine,C,CHC,PHI,PHI@CHC,8:05PM EDT,7,1.5," ",IL60," "
+mlb.p.10390,Jonathan,Holder,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,2.8,No,IL60,No
+mlb.p.11143,Rowan,Wick,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,3.1,No,IL60,No
+mlb.p.11179,Sergio,Alcantara,2B,CHC,PHI,PHI@CHC,8:05PM EDT,7,4.0," "," "," "
+mlb.p.9593,Kohl,Stewart,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,7.1,No,IL10,No
+mlb.p.11435,Cory,Abbott,P,CHC,PHI,PHI@CHC,8:05PM EDT,25,4.3,No," ",No
+mlb.p.7946,Joey,Votto,1B,CIN,MIL,CIN@MIL,8:10PM EDT,17,7.8," "," "," "
+mlb.p.8641,Sean,Doolittle,P,CIN,MIL,CIN@MIL,8:10PM EDT,25,2.6,No," ",No
+mlb.p.9017,Wade,Miley,P,CIN,MIL,CIN@MIL,8:10PM EDT,38,18.7,No," ",No
+mlb.p.9040,Brad,Brach,P,CIN,MIL,CIN@MIL,8:10PM EDT,25,3.6,No," ",No
+mlb.p.9108,Nick,Castellanos,OF,CIN,MIL,CIN@MIL,8:10PM EDT,18,9.7," "," "," "
+mlb.p.9459,Sonny,Gray,P,CIN,MIL,CIN@MIL,8:10PM EDT,39,19.7,No," ",No
+mlb.p.9519,Heath,Hembree,P,CIN,MIL,CIN@MIL,8:10PM EDT,25,4.3,No," ",No
+mlb.p.9561,Jesse,Winker,OF,CIN,MIL,CIN@MIL,8:10PM EDT,15,9.4," "," "," "
+mlb.p.9664,Tucker,Barnhart,C,CIN,MIL,CIN@MIL,8:10PM EDT,12,5.8," "," "," "
+mlb.p.9724,Eugenio,Suarez,3B,CIN,MIL,CIN@MIL,8:10PM EDT,12,6.7," "," "," "
+mlb.p.10021,Josh,Osich,P,CIN,MIL,CIN@MIL,8:10PM EDT,25,3.4,No," ",No
+mlb.p.10121,Tyler,Naquin,OF,CIN,MIL,CIN@MIL,8:10PM EDT,8,6.7," "," "," "
+mlb.p.10171,Amir,Garrett,P,CIN,MIL,CIN@MIL,8:10PM EDT,25,1.9,No," ",No
+mlb.p.10345,Mike,Freeman,SS,CIN,MIL,CIN@MIL,8:10PM EDT,7,1.9," "," "," "
+mlb.p.10452,Vladimir,Gutierrez,P,CIN,MIL,CIN@MIL,8:10PM EDT,30,14.9,No," ",No
+mlb.p.10455,Tyler,Mahle,P,CIN,MIL,CIN@MIL,8:10PM EDT,44,20.6,Yes," ",Yes
+mlb.p.10456,Tyler,Stephenson,C,CIN,MIL,CIN@MIL,8:10PM EDT,13,5.8," "," "," "
+mlb.p.10514,Luis,Castillo,P,CIN,MIL,CIN@MIL,8:10PM EDT,41,14.1,No," ",No
+mlb.p.10644,Cionel,Perez,P,CIN,MIL,CIN@MIL,8:10PM EDT,25,1.5,No," ",No
+mlb.p.10775,Kyle,Farmer,SS,CIN,MIL,CIN@MIL,8:10PM EDT,10,4.7," ",DTD," "
+mlb.p.11134,Aristides,Aquino,OF,CIN,MIL,CIN@MIL,8:10PM EDT,9,5.0," "," "," "
+mlb.p.11292,Jonathan,India,2B,CIN,MIL,CIN@MIL,8:10PM EDT,18,7.4," "," "," "
+mlb.p.11533,Art,Warren,P,CIN,MIL,CIN@MIL,8:10PM EDT,25,4.5,No," ",No
+mlb.p.11683,Ryan,Hendrix,P,CIN,MIL,CIN@MIL,8:10PM EDT,25,2.9,No," ",No
+mlb.p.11721,Shogo,Akiyama,OF,CIN,MIL,CIN@MIL,8:10PM EDT,7,2.7," "," "," "
+mlb.p.12219,Alejo,Lopez,2B,CIN,MIL,CIN@MIL,8:10PM EDT,7,2.7," "," "," "
+mlb.p.11682,Tejay,Antone,P,CIN,MIL,CIN@MIL,8:10PM EDT,28,7.0,No,IL10,No
+mlb.p.9544,Lucas,Sims,P,CIN,MIL,CIN@MIL,8:10PM EDT,25,4.2,No,IL10,No
+mlb.p.9978,Michael,Feliz,P,CIN,MIL,CIN@MIL,8:10PM EDT,25,1.2,No,IL10,No
+mlb.p.10174,Alex,Blandino,1B,CIN,MIL,CIN@MIL,8:10PM EDT,7,2.5," ",IL10," "
+mlb.p.10547,Max,Schrock,2B,CIN,MIL,CIN@MIL,8:10PM EDT,7,4.6," ",IL10," "
+mlb.p.9896,Jeff,Hoffman,P,CIN,MIL,CIN@MIL,8:10PM EDT,25,11.0,No,IL10,No
+mlb.p.8685,Mike,Moustakas,1B,CIN,MIL,CIN@MIL,8:10PM EDT,7,6.7," ",IL60," "
+mlb.p.10453,Nick,Senzel,3B,CIN,MIL,CIN@MIL,8:10PM EDT,7,5.1," ",IL60," "
+mlb.p.11711,Brandon,Bailey,P,CIN,MIL,CIN@MIL,8:10PM EDT,25,3.4,No,IL60,No
+mlb.p.9949,Michael,Lorenzen,P,CIN,MIL,CIN@MIL,8:10PM EDT,29,6.3,No,IL60,No
+mlb.p.9004,Manny,Pina,C,MIL,CIN,CIN@MIL,8:10PM EDT,7,4.0," "," "," "
+mlb.p.9215,Brad,Boxberger,P,MIL,CIN,CIN@MIL,8:10PM EDT,25,3.6,No," ",No
+mlb.p.9281,Avisail,Garcia,OF,MIL,CIN,CIN@MIL,8:10PM EDT,15,7.3," "," "," "
+mlb.p.9320,Christian,Yelich,OF,MIL,CIN,CIN@MIL,8:10PM EDT,18,8.0," "," "," "
+mlb.p.9338,Jackie,Bradley Jr.,OF,MIL,CIN,CIN@MIL,8:10PM EDT,8,4.7," "," "," "
+mlb.p.9618,Jace,Peterson,2B,MIL,CIN,CIN@MIL,8:10PM EDT,18,6.8," "," "," "
+mlb.p.9809,Hunter,Strickland,P,MIL,CIN,CIN@MIL,8:10PM EDT,25,3.0,No," ",No
+mlb.p.9893,Willy,Adames,SS,MIL,CIN,CIN@MIL,8:10PM EDT,20,7.2," "," "," "
+mlb.p.10098,Adrian,Houser,P,MIL,CIN,CIN@MIL,8:10PM EDT,29,14.0,Yes," ",Yes
+mlb.p.10131,Josh,Hader,P,MIL,CIN,CIN@MIL,8:10PM EDT,25,5.8,No," ",No
+mlb.p.10195,Tyrone,Taylor,OF,MIL,CIN,CIN@MIL,8:10PM EDT,8,5.3," "," "," "
+mlb.p.10337,Omar,Narvaez,C,MIL,CIN,CIN@MIL,8:10PM EDT,15,6.6," "," "," "
+mlb.p.10370,Brent,Suter,P,MIL,CIN,CIN@MIL,8:10PM EDT,25,4.6,No," ",No
+mlb.p.10570,Luis,Urias,3B,MIL,CIN,CIN@MIL,8:10PM EDT,13,6.9," "," "," "
+mlb.p.10576,Eric,Lauer,P,MIL,CIN,CIN@MIL,8:10PM EDT,28,14.5,No," ",No
+mlb.p.10730,Brandon,Woodruff,P,MIL,CIN,CIN@MIL,8:10PM EDT,53,27.7,No," ",No
+mlb.p.10736,Hoby,Milner,P,MIL,CIN,CIN@MIL,8:10PM EDT,25,2.9,No," ",No
+mlb.p.10910,Corbin,Burnes,P,MIL,CIN,CIN@MIL,8:10PM EDT,43,27.7,No," ",No
+mlb.p.10912,Keston,Hiura,1B,MIL,CIN,CIN@MIL,8:10PM EDT,12,4.7," "," "," "
+mlb.p.11014,Freddy,Peralta,P,MIL,CIN,CIN@MIL,8:10PM EDT,52,25.9,No," ",No
+mlb.p.11153,Pablo,Reyes,3B,MIL,CIN,CIN@MIL,8:10PM EDT,7,2.1," "," "," "
+mlb.p.11628,Devin,Williams,P,MIL,CIN,CIN@MIL,8:10PM EDT,25,4.3,No," ",No
+mlb.p.12211,Jake,Cousins,P,MIL,CIN,CIN@MIL,8:10PM EDT,25,7.6,No," ",No
+mlb.p.12214,Miguel,Sanchez,P,MIL,CIN,CIN@MIL,8:10PM EDT,25,4.3,No," ",No
+mlb.p.9103,Kolten,Wong,2B,MIL,CIN,CIN@MIL,8:10PM EDT,7,7.8," ",IL10," "
+mlb.p.9556,Daniel,Vogelbach,1B,MIL,CIN,CIN@MIL,8:10PM EDT,9,4.7," ",IL10," "
+mlb.p.8409,Brett,Anderson,P,MIL,CIN,CIN@MIL,8:10PM EDT,25,8.5,No," ",No
+mlb.p.9961,Travis,Shaw,3B,MIL,CIN,CIN@MIL,8:10PM EDT,7,5.3," ",IL60," "
+mlb.p.8762,Lorenzo,Cain,OF,MIL,CIN,CIN@MIL,8:10PM EDT,10,6.4," ",IL10," "
+mlb.p.12017,Dylan,File,P,MIL,CIN,CIN@MIL,8:10PM EDT,25,0.0,No,IL60,No
+mlb.p.12067,Justin,Topa,P,MIL,CIN,CIN@MIL,8:10PM EDT,25,5.8,No,IL60,No
+mlb.p.11703,Mark,Mathias,OF,MIL,CIN,CIN@MIL,8:10PM EDT,7,3.1," ",IL60," "
+mlb.p.10620,Rowdy,Tellez,1B,MIL,CIN,CIN@MIL,8:10PM EDT,7,3.7," "," "," "
+mlb.p.10364,Jandel,Gustave,P,MIL,CIN,CIN@MIL,8:10PM EDT,25,0.0,No," ",No
+mlb.p.9613,Gregory,Polanco,OF,PIT,NYM,PIT@NYM,7:10PM EDT,7,5.7," ",IL10," "
+mlb.p.9626,Kyle,Crick,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,2.2,No," ",No
+mlb.p.9768,Chasen,Shreve,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,2.5,No," ",No
+mlb.p.9969,Wilmer,Difo,3B,PIT,NYM,PIT@NYM,7:10PM EDT,7,2.8," "," "," "
+mlb.p.10031,Tyler,Anderson,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,16.2,No," ",No
+mlb.p.10143,Chad,Kuhl,P,PIT,NYM,PIT@NYM,7:10PM EDT,29,11.2,No," ",No
+mlb.p.10165,Duane,Underwood Jr.,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,4.5,No," ",No
+mlb.p.10190,Chase,De Jong,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,11.3,No," ",No
+mlb.p.10283,Ben,Gamel,OF,PIT,NYM,PIT@NYM,7:10PM EDT,13,4.7," "," "," "
+mlb.p.10311,Chris,Stratton,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,4.2,No," ",No
+mlb.p.10318,Jacob,Stallings,C,PIT,NYM,PIT@NYM,7:10PM EDT,7,6.0," "," "," "
+mlb.p.10322,Adam,Frazier,2B,PIT,NYM,PIT@NYM,7:10PM EDT,13,7.9," "," "," "
+mlb.p.10564,Kevin,Newman,SS,PIT,NYM,PIT@NYM,7:10PM EDT,7,4.0," "," "," "
+mlb.p.10566,Ke'Bryan,Hayes,3B,PIT,NYM,PIT@NYM,7:10PM EDT,11,7.7," "," "," "
+mlb.p.10569,Clay,Holmes,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,2.9,No," ",No
+mlb.p.10577,Bryan,Reynolds,OF,PIT,NYM,PIT@NYM,7:10PM EDT,18,8.6," "," "," "
+mlb.p.10811,Richard,Rodriguez,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,4.0,No," ",No
+mlb.p.10827,Phillip,Evans,OF,PIT,NYM,PIT@NYM,7:10PM EDT,7,5.1," ",IL7," "
+mlb.p.10963,Wil,Crowe,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,8.6,No," ",No
+mlb.p.11041,Sam,Howard,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,3.1,No," ",No
+mlb.p.11119,Michael,Perez,C,PIT,NYM,PIT@NYM,7:10PM EDT,7,4.0," "," "," "
+mlb.p.11216,Kyle,Keller,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,3.5,No," ",No
+mlb.p.11227,JT,Brubaker,P,PIT,NYM,PIT@NYM,7:10PM EDT,36,17.4,Yes," ",Yes
+mlb.p.11522,Jared,Oliva,OF,PIT,NYM,PIT@NYM,7:10PM EDT,7,2.1," "," "," "
+mlb.p.11645,David,Bednar,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,3.5,No," ",No
+mlb.p.11936,John,Nogowski,1B,PIT,NYM,PIT@NYM,7:10PM EDT,7,1.9," "," "," "
+mlb.p.10122,Erik,Gonzalez,SS,PIT,NYM,PIT@NYM,7:10PM EDT,7,3.8," ",IL10," "
+mlb.p.12113,Ka'ai,Tom,OF,PIT,NYM,PIT@NYM,7:10PM EDT,7,3.5," ",IL10," "
+mlb.p.9587,Colin,Moran,1B,PIT,NYM,PIT@NYM,7:10PM EDT,7,5.7," ",IL10," "
+mlb.p.8410,Trevor,Cahill,P,PIT,NYM,PIT@NYM,7:10PM EDT,27,8.2,No,IL60,No
+mlb.p.11295,Luis,Oviedo,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,3.2,No,IL10,No
+mlb.p.10334,Steven,Brault,P,PIT,NYM,PIT@NYM,7:10PM EDT,26,11.3,No,IL60,No
+mlb.p.11707,Blake,Cederlind,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,2.5,No,IL60,No
+mlb.p.11327,Jose,Soriano,P,PIT,NYM,PIT@NYM,7:10PM EDT,25,0.0,No,IL60,No
+mlb.p.9116,Francisco,Lindor,SS,NYM,PIT,PIT@NYM,7:10PM EDT,14,6.8," "," "," "
+mlb.p.9236,Aaron,Loup,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,3.8,No," ",No
+mlb.p.9299,Jeurys,Familia,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,3.5,No," ",No
+mlb.p.9321,Taijuan,Walker,P,NYM,PIT,PIT@NYM,7:10PM EDT,48,22.1,Yes," ",Yes
+mlb.p.9468,Jonathan,Villar,3B,NYM,PIT,PIT@NYM,7:10PM EDT,10,5.9," "," "," "
+mlb.p.9490,Kevin,Pillar,OF,NYM,PIT,PIT@NYM,7:10PM EDT,7,4.9," "," "," "
+mlb.p.9595,Dominic,Smith,OF,NYM,PIT,PIT@NYM,7:10PM EDT,16,6.1," "," "," "
+mlb.p.9637,Marcus,Stroman,P,NYM,PIT,PIT@NYM,7:10PM EDT,41,18.2,No," ",No
+mlb.p.9701,Jacob,deGrom,P,NYM,PIT,PIT@NYM,7:10PM EDT,56,35.2,No," ",No
+mlb.p.9783,Trevor,May,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,3.8,No," ",No
+mlb.p.9818,James,McCann,C,NYM,PIT,PIT@NYM,7:10PM EDT,12,5.0," "," "," "
+mlb.p.9857,Jose,Peraza,2B,NYM,PIT,PIT@NYM,7:10PM EDT,7,4.7," "," "," "
+mlb.p.9860,Billy,McKinney,OF,NYM,PIT,PIT@NYM,7:10PM EDT,7,4.4," "," "," "
+mlb.p.9875,Michael,Conforto,OF,NYM,PIT,PIT@NYM,7:10PM EDT,8,5.3," "," "," "
+mlb.p.9876,Brandon,Nimmo,OF,NYM,PIT,PIT@NYM,7:10PM EDT,15,7.0," "," "," "
+mlb.p.9903,Miguel,Castro,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,3.2,No," ",No
+mlb.p.10214,Edwin,Diaz,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,4.2,No," ",No
+mlb.p.10326,Seth,Lugo,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,4.8,No," ",No
+mlb.p.10829,Tomas,Nido,C,NYM,PIT,PIT@NYM,7:10PM EDT,7,4.7," "," "," "
+mlb.p.10918,Pete,Alonso,1B,NYM,PIT,PIT@NYM,7:10PM EDT,18,7.7," "," "," "
+mlb.p.10920,Luis,Guillorme,3B,NYM,PIT,PIT@NYM,7:10PM EDT,7,3.1," "," "," "
+mlb.p.10990,Corey,Oswalt,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,11.5,No,IL10,No
+mlb.p.11050,Drew,Smith,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,5.3,No," ",No
+mlb.p.11118,Jeff,McNeil,2B,NYM,PIT,PIT@NYM,7:10PM EDT,8,5.0," "," "," "
+mlb.p.11245,Yennsy,Diaz,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,4.8,No," ",No
+mlb.p.12215,Tylor,Megill,P,NYM,PIT,PIT@NYM,7:10PM EDT,27,17.9,No," ",No
+mlb.p.10618,Sean,Reid-Foley,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,5.7,No,IL10,No
+mlb.p.10921,David,Peterson,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,11.9,No,IL10,No
+mlb.p.10199,Robert,Gsellman,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,3.9,No,IL60,No
+mlb.p.10941,Joey,Lucchesi,P,NYM,PIT,PIT@NYM,7:10PM EDT,33,11.0,No,IL60,No
+mlb.p.11954,Johneshwy,Fargas,OF,NYM,PIT,PIT@NYM,7:10PM EDT,7,5.2," ",IL10," "
+mlb.p.11218,Jordan,Yamamoto,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,3.7,No,IL60,No
+mlb.p.8312,Tommy,Hunter,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,7.2,No,IL60,No
+mlb.p.10186,J.D.,Davis,3B,NYM,PIT,PIT@NYM,7:10PM EDT,7,7.6," ",IL60," "
+mlb.p.9063,Dellin,Betances,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,1.2,No,IL60,No
+mlb.p.10399,Jose,Martinez,1B,NYM,PIT,PIT@NYM,7:10PM EDT,7,3.7," ",IL60," "
+mlb.p.8185,Carlos,Carrasco,P,NYM,PIT,PIT@NYM,7:10PM EDT,47,20.7,No,IL60,No
+mlb.p.9597,Noah,Syndergaard,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,0.0,No,IL60,No
+mlb.p.10567,Cole,Tucker,SS,PIT,NYM,PIT@NYM,7:10PM EDT,7,1.7," "," "," "
+mlb.p.11975,Rodolfo,Castro,SS,PIT,NYM,PIT@NYM,7:10PM EDT,7,1.5," "," "," "
+mlb.p.11053,Robert,Stock,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,5.4,No," ",No
+mlb.p.9827,Nick,Tropeano,P,NYM,PIT,PIT@NYM,7:10PM EDT,25,4.6,No," ",No
+mlb.p.9088,Rafael,Dolis,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,2.2,No," ",No
+mlb.p.9317,Hyun-jin,Ryu,P,TOR,BAL,TOR@BAL,7:05PM EDT,37,18.1,No," ",No
+mlb.p.9339,George,Springer,OF,TOR,BAL,TOR@BAL,7:05PM EDT,22,8.6," "," "," "
+mlb.p.9517,Marcus,Semien,2B,TOR,BAL,TOR@BAL,7:05PM EDT,25,10.0," "," "," "
+mlb.p.9599,Steven,Matz,P,TOR,BAL,TOR@BAL,7:05PM EDT,28,16.1,No," ",No
+mlb.p.9615,Reese,McGuire,C,TOR,BAL,TOR@BAL,7:05PM EDT,10,4.0," "," "," "
+mlb.p.9689,Randal,Grichuk,OF,TOR,BAL,TOR@BAL,7:05PM EDT,16,7.3," "," "," "
+mlb.p.9691,Robbie,Ray,P,TOR,BAL,TOR@BAL,7:05PM EDT,45,23.6,No," ",No
+mlb.p.10258,Ross,Stripling,P,TOR,BAL,TOR@BAL,7:05PM EDT,36,16.3,No," ",No
+mlb.p.10313,Jacob,Barnes,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,3.2,No," ",No
+mlb.p.10366,Teoscar,Hernandez,OF,TOR,BAL,TOR@BAL,7:05PM EDT,17,8.4," "," "," "
+mlb.p.10538,Anthony,Kay,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,11.0,No," ",No
+mlb.p.10616,Lourdes,Gurriel Jr.,OF,TOR,BAL,TOR@BAL,7:05PM EDT,19,6.3," "," "," "
+mlb.p.10621,Vladimir,Guerrero Jr.,1B,TOR,BAL,TOR@BAL,7:05PM EDT,28,11.4," "," "," "
+mlb.p.10766,Bo,Bichette,SS,TOR,BAL,TOR@BAL,7:05PM EDT,24,9.5," "," "," "
+mlb.p.10787,Tim,Mayza,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,2.4,No," ",No
+mlb.p.10959,Danny,Jansen,C,TOR,BAL,TOR@BAL,7:05PM EDT,13,3.7," "," "," "
+mlb.p.10979,Adam,Cimber,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,2.8,No," ",No
+mlb.p.11086,Cavan,Biggio,3B,TOR,BAL,TOR@BAL,7:05PM EDT,17,6.2," "," "," "
+mlb.p.11159,Jonathan,Davis,OF,TOR,BAL,TOR@BAL,7:05PM EDT,7,2.7," "," "," "
+mlb.p.11253,Jordan,Romano,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,4.5,No," ",No
+mlb.p.11556,Santiago,Espinal,3B,TOR,BAL,TOR@BAL,7:05PM EDT,13,3.9," "," "," "
+mlb.p.11687,Anthony,Castro,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,3.6,No," ",No
+mlb.p.11854,Alek,Manoah,P,TOR,BAL,TOR@BAL,7:05PM EDT,41,21.0,Yes," ",Yes
+mlb.p.12208,Tayler,Saucedo,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,2.6,No," ",No
+mlb.p.8721,Cesar,Valdez,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,2.7,No," ",No
+mlb.p.9245,Matt,Harvey,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,6.1,No," ",No
+mlb.p.9609,Maikel,Franco,3B,BAL,TOR,TOR@BAL,7:05PM EDT,7,6.0," ",IL10," "
+mlb.p.10077,Pedro,Severino,C,BAL,TOR,TOR@BAL,7:05PM EDT,8,5.1," "," "," "
+mlb.p.10096,Jorge,Lopez,P,BAL,TOR,TOR@BAL,7:05PM EDT,27,10.3,No," ",No
+mlb.p.10123,Adam,Plutko,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,3.7,No," ",No
+mlb.p.10157,Trey,Mancini,1B,BAL,TOR,TOR@BAL,7:05PM EDT,9,7.9," "," "," "
+mlb.p.10221,Dillon,Tate,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,3.5,No," ",No
+mlb.p.10403,Pat,Valaika,2B,BAL,TOR,TOR@BAL,7:05PM EDT,7,3.2," "," "," "
+mlb.p.10416,Domingo,Leyba,3B,BAL,TOR,TOR@BAL,7:05PM EDT,7,2.4," "," "," "
+mlb.p.10429,Ryan,Mountcastle,1B,BAL,TOR,TOR@BAL,7:05PM EDT,16,7.1," "," "," "
+mlb.p.10431,Keegan,Akin,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,6.3,Yes," ",Yes
+mlb.p.10432,Tanner,Scott,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,3.7,No," ",No
+mlb.p.10666,Anthony,Santander,OF,BAL,TOR,TOR@BAL,7:05PM EDT,9,5.8," "," "," "
+mlb.p.10685,Paul,Fry,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,3.7,No," ",No
+mlb.p.10826,Austin,Hays,OF,BAL,TOR,TOR@BAL,7:05PM EDT,9,7.1," "," "," "
+mlb.p.10849,Cedric,Mullins,OF,BAL,TOR,TOR@BAL,7:05PM EDT,21,9.2," "," "," "
+mlb.p.11033,Austin,Wynns,C,BAL,TOR,TOR@BAL,7:05PM EDT,7,4.9," "," "," "
+mlb.p.11108,DJ,Stewart,OF,BAL,TOR,TOR@BAL,7:05PM EDT,7,5.3," "," "," "
+mlb.p.11239,Ramon,Urias,SS,BAL,TOR,TOR@BAL,7:05PM EDT,13,5.3," "," "," "
+mlb.p.11429,Zac,Lowther,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,2.0,No," ",No
+mlb.p.11609,Thomas,Eshelman,P,BAL,TOR,TOR@BAL,7:05PM EDT,30,2.0,No," ",No
+mlb.p.11648,Cole,Sulser,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,4.9,No," ",No
+mlb.p.11686,Ryan,McKenna,OF,BAL,TOR,TOR@BAL,7:05PM EDT,7,2.2," "," "," "
+mlb.p.12114,Tyler,Wells,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,6.0,No," ",No
+mlb.p.12221,Spenser,Watkins,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,9.3,No," ",No
+mlb.p.8862,Tyler,Chatwood,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,2.6,No,IL10,No
+mlb.p.9555,CJ,Edwards,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,0.3,No,IL60,No
+mlb.p.9438,Corey,Dickerson,OF,TOR,BAL,TOR@BAL,7:05PM EDT,7,5.4," ",IL10," "
+mlb.p.9638,A.J.,Cole,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,5.0,No,IL60,No
+mlb.p.10958,Ryan,Borucki,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,4.4,No,IL60,No
+mlb.p.9148,David,Phelps,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,3.9,No,IL60,No
+mlb.p.11853,Alejandro,Kirk,C,TOR,BAL,TOR@BAL,7:05PM EDT,7,5.5," ",IL60," "
+mlb.p.9035,Tommy,Milone,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,6.6,No,IL10,No
+mlb.p.11192,Julian,Merryweather,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,6.3,No,IL60,No
+mlb.p.9727,Kirby,Yates,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,1.2,No,IL60,No
+mlb.p.9547,Hunter,Harvey,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,2.2,No,IL10,No
+mlb.p.10435,Travis,Lakins Sr.,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,2.6,No,IL60,No
+mlb.p.9132,Freddy,Galvis,SS,BAL,TOR,TOR@BAL,7:05PM EDT,7,6.2," ",IL10," "
+mlb.p.12090,Bruce,Zimmermann,P,BAL,TOR,TOR@BAL,7:05PM EDT,25,13.0,No,IL10,No
+mlb.p.11168,John,Means,P,BAL,TOR,TOR@BAL,7:05PM EDT,47,23.1,No,IL10,No
+mlb.p.10550,Richie,Martin,SS,BAL,TOR,TOR@BAL,7:05PM EDT,7,0.0," ",IL60," "
+mlb.p.8285,Chris,Davis,1B,BAL,TOR,TOR@BAL,7:05PM EDT,7,2.4," ",IL60," "
+mlb.p.10988,Trevor,Richards,P,TOR,BAL,TOR@BAL,7:05PM EDT,25,6.2,No," ",No
+mlb.p.11182,Kelvin,Gutierrez,3B,BAL,TOR,TOR@BAL,7:05PM EDT,7,4.0," "," "," "
+mlb.p.7627,Ryan,Zimmerman,1B,WAS,SD,WAS@SD,9:10PM EDT,7,4.8," "," "," "
+mlb.p.7790,Jon,Lester,P,WAS,SD,WAS@SD,9:10PM EDT,28,8.5,No," ",No
+mlb.p.8193,Max,Scherzer,P,WAS,SD,WAS@SD,9:10PM EDT,52,27.8,Yes," ",Yes
+mlb.p.8344,Alcides,Escobar,SS,WAS,SD,WAS@SD,9:10PM EDT,10,8.5," "," "," "
+mlb.p.8473,Gerardo,Parra,OF,WAS,SD,WAS@SD,9:10PM EDT,7,2.5," "," "," "
+mlb.p.8611,Starlin,Castro,3B,WAS,SD,WAS@SD,9:10PM EDT,10,5.6," "," "," "
+mlb.p.8950,Josh,Harrison,2B,WAS,SD,WAS@SD,9:10PM EDT,7,6.5," "," "," "
+mlb.p.8955,Brad,Hand,P,WAS,SD,WAS@SD,9:10PM EDT,25,4.0,No," ",No
+mlb.p.9168,Patrick,Corbin,P,WAS,SD,WAS@SD,9:10PM EDT,34,12.8,No," ",No
+mlb.p.9186,Yan,Gomes,C,WAS,SD,WAS@SD,9:10PM EDT,11,6.8," "," "," "
+mlb.p.9883,Josh,Bell,1B,WAS,SD,WAS@SD,9:10PM EDT,12,7.0," "," "," "
+mlb.p.9987,Joe,Ross,P,WAS,SD,WAS@SD,9:10PM EDT,41,17.8,No," ",No
+mlb.p.10056,Trea,Turner,SS,WAS,SD,WAS@SD,9:10PM EDT,18,9.2," "," "," "
+mlb.p.10153,Austin,Voth,P,WAS,SD,WAS@SD,9:10PM EDT,25,4.2,No," ",No
+mlb.p.10227,Victor,Robles,OF,WAS,SD,WAS@SD,9:10PM EDT,7,4.9," "," "," "
+mlb.p.10626,Juan,Soto,OF,WAS,SD,WAS@SD,9:10PM EDT,15,8.5," "," "," "
+mlb.p.10702,Paolo,Espino,P,WAS,SD,WAS@SD,9:10PM EDT,25,6.8,No," ",No
+mlb.p.10812,Andres,Machado,P,WAS,SD,WAS@SD,9:10PM EDT,25,4.6,No," ",No
+mlb.p.11007,Wander,Suero,P,WAS,SD,WAS@SD,9:10PM EDT,25,2.6,No," ",No
+mlb.p.11018,Jefry,Rodriguez,P,WAS,SD,WAS@SD,9:10PM EDT,25,5.8,No," ",No
+mlb.p.11156,Kyle,McGowin,P,WAS,SD,WAS@SD,9:10PM EDT,25,3.8,No," ",No
+mlb.p.11559,Tres,Barrera,C,WAS,SD,WAS@SD,9:10PM EDT,7,1.3," "," "," "
+mlb.p.11899,Yadiel,Hernandez,OF,WAS,SD,WAS@SD,9:10PM EDT,7,2.5," "," "," "
+mlb.p.11960,Sam,Clay,P,WAS,SD,WAS@SD,9:10PM EDT,25,1.5,No," ",No
+mlb.p.9861,Kyle,Schwarber,OF,WAS,SD,WAS@SD,9:10PM EDT,7,9.4," ",IL10," "
+mlb.p.11896,Steven,Fuentes,P,WAS,SD,WAS@SD,9:10PM EDT,25,0.0,No,IL60,No
+mlb.p.8550,Alex,Avila,C,WAS,SD,WAS@SD,9:10PM EDT,7,4.8," ",IL10," "
+mlb.p.9198,Jordy,Mercer,3B,WAS,SD,WAS@SD,9:10PM EDT,7,3.0," ",IL10," "
+mlb.p.10989,Tanner,Rainey,P,WAS,SD,WAS@SD,9:10PM EDT,25,2.4,No,IL10,No
+mlb.p.10229,Erick,Fedde,P,WAS,SD,WAS@SD,9:10PM EDT,31,14.0,No," ",No
+mlb.p.11709,Kyle,Finnegan,P,WAS,SD,WAS@SD,9:10PM EDT,25,3.0,No," ",No
+mlb.p.10624,Andrew,Stevenson,OF,WAS,SD,WAS@SD,9:10PM EDT,7,2.7," ",IL10," "
+mlb.p.8567,Daniel,Hudson,P,WAS,SD,WAS@SD,9:10PM EDT,25,5.2,No," ",No
+mlb.p.8562,Stephen,Strasburg,P,WAS,SD,WAS@SD,9:10PM EDT,44,12.2,No,IL10,No
+mlb.p.9267,Will,Harris,P,WAS,SD,WAS@SD,9:10PM EDT,25,1.9,No,IL60,No
+mlb.p.9233,Luis,Avilan,P,WAS,SD,WAS@SD,9:10PM EDT,25,1.3,No,IL60,No
+mlb.p.8458,Mark,Melancon,P,SD,WAS,WAS@SD,9:10PM EDT,25,3.3,No," ",No
+mlb.p.8480,Craig,Stammen,P,SD,WAS,WAS@SD,9:10PM EDT,25,5.0,No," ",No
+mlb.p.8857,Eric,Hosmer,1B,SD,WAS,WAS@SD,9:10PM EDT,7,6.0," "," "," "
+mlb.p.8859,Wil,Myers,OF,SD,WAS,WAS@SD,9:10PM EDT,11,6.1," "," "," "
+mlb.p.9068,Drew,Pomeranz,P,SD,WAS,WAS@SD,9:10PM EDT,25,3.9,No," ",No
+mlb.p.9095,Yu,Darvish,P,SD,WAS,WAS@SD,9:10PM EDT,51,25.1,Yes," ",Yes
+mlb.p.9111,Manny,Machado,3B,SD,WAS,WAS@SD,9:10PM EDT,20,8.9," "," "," "
+mlb.p.9112,Jurickson,Profar,OF,SD,WAS,WAS@SD,9:10PM EDT,7,5.2," "," "," "
+mlb.p.9559,Pierce,Johnson,P,SD,WAS,WAS@SD,9:10PM EDT,25,3.6,No," ",No
+mlb.p.9842,Tommy,Pham,OF,SD,WAS,WAS@SD,9:10PM EDT,14,7.1," "," "," "
+mlb.p.10148,Blake,Snell,P,SD,WAS,WAS@SD,9:10PM EDT,30,14.4,No," ",No
+mlb.p.10185,Joe,Musgrove,P,SD,WAS,WAS@SD,9:10PM EDT,45,21.9,No," ",No
+mlb.p.10239,Jorge,Mateo,OF,SD,WAS,WAS@SD,9:10PM EDT,7,2.2," "," "," "
+mlb.p.10522,Trent,Grisham,OF,SD,WAS,WAS@SD,9:10PM EDT,14,8.6," "," "," "
+mlb.p.10575,Chris,Paddack,P,SD,WAS,WAS@SD,9:10PM EDT,31,13.9,No," ",No
+mlb.p.10639,Fernando,Tatis Jr.,SS,SD,WAS,WAS@SD,9:10PM EDT,23,12.3," "," "," "
+mlb.p.10691,Emilio,Pagan,P,SD,WAS,WAS@SD,9:10PM EDT,25,3.7,No,DTD,No
+mlb.p.10748,Victor,Caratini,C,SD,WAS,WAS@SD,9:10PM EDT,7,4.8," "," "," "
+mlb.p.10760,Austin,Adams,P,SD,WAS,WAS@SD,9:10PM EDT,25,3.7,No," ",No
+mlb.p.10986,Tim,Hill,P,SD,WAS,WAS@SD,9:10PM EDT,25,3.3,No," ",No
+mlb.p.11379,Ryan,Weathers,P,SD,WAS,WAS@SD,9:10PM EDT,32,10.7,No," ",No
+mlb.p.11583,Nick,Ramirez,P,SD,WAS,WAS@SD,9:10PM EDT,25,3.1,No," ",No
+mlb.p.11692,Jake,Cronenworth,2B,SD,WAS,WAS@SD,9:10PM EDT,15,7.9," "," "," "
+mlb.p.11982,Webster,Rivas,C,SD,WAS,WAS@SD,9:10PM EDT,7,5.0," "," "," "
+mlb.p.12020,Nabil,Crismatt,P,SD,WAS,WAS@SD,9:10PM EDT,25,5.4,No," ",No
+mlb.p.12116,Ha-Seong,Kim,2B,SD,WAS,WAS@SD,9:10PM EDT,7,4.3," "," "," "
+mlb.p.10703,Dinelson,Lamet,P,SD,WAS,WAS@SD,9:10PM EDT,33,10.4,No,IL10,No
+mlb.p.11599,Austin,Nola,C,SD,WAS,WAS@SD,9:10PM EDT,7,5.5," ",IL10," "
+mlb.p.9916,Keone,Kela,P,SD,WAS,WAS@SD,9:10PM EDT,25,3.4,No,IL60,No
+mlb.p.10378,Dan,Altavilla,P,SD,WAS,WAS@SD,9:10PM EDT,25,2.6,No,IL60,No
+mlb.p.10198,Taylor,Williams,P,SD,WAS,WAS@SD,9:10PM EDT,25,3.8,No,IL60,No
+mlb.p.10574,Adrian,Morejon,P,SD,WAS,WAS@SD,9:10PM EDT,30,4.8,No,IL60,No
+mlb.p.10939,Michel,Baez,P,SD,WAS,WAS@SD,9:10PM EDT,25,4.0,No,IL60,No
+mlb.p.10355,Matt,Strahm,P,SD,WAS,WAS@SD,9:10PM EDT,25,2.4,No,IL60,No
+mlb.p.10238,Javy,Guerra,P,SD,WAS,WAS@SD,9:10PM EDT,25,0.7,No,IL60,No
+mlb.p.11708,Jorge,Ona,OF,SD,WAS,WAS@SD,9:10PM EDT,7,7.1," ",IL60," "
+mlb.p.11032,Jose,Castillo,P,SD,WAS,WAS@SD,9:10PM EDT,25,0.0,No,IL60,No
+mlb.p.10296,Mike,Clevinger,P,SD,WAS,WAS@SD,9:10PM EDT,42,16.5,No,IL60,No
+mlb.p.11126,Trey,Wingenter,P,SD,WAS,WAS@SD,9:10PM EDT,25,0.0,No,IL60,No
+mlb.p.7547,Ervin,Santana,P,KC,CLE,KC@CLE,7:10PM EDT,25,4.7,No," ",No
+mlb.p.8479,Anthony,Swarzak,P,KC,CLE,KC@CLE,7:10PM EDT,25,0.5,No," ",No
+mlb.p.8619,Carlos,Santana,1B,KC,CLE,KC@CLE,7:10PM EDT,12,7.7," "," "," "
+mlb.p.8773,Greg,Holland,P,KC,CLE,KC@CLE,7:10PM EDT,25,3.0,No," ",No
+mlb.p.8781,Mike,Minor,P,KC,CLE,KC@CLE,7:10PM EDT,28,16.1,No," ",No
+mlb.p.8817,Jarrod,Dyson,OF,KC,CLE,KC@CLE,7:10PM EDT,7,2.8," "," "," "
+mlb.p.8932,Danny,Duffy,P,KC,CLE,KC@CLE,7:10PM EDT,32,18.0,Yes," ",Yes
+mlb.p.9015,Salvador,Perez,C,KC,CLE,KC@CLE,7:10PM EDT,15,7.6," "," "," "
+mlb.p.9228,Jorge,Soler,OF,KC,CLE,KC@CLE,7:10PM EDT,7,5.1," "," "," "
+mlb.p.9335,Kyle,Zimmer,P,KC,CLE,KC@CLE,7:10PM EDT,25,4.1,No," ",No
+mlb.p.9579,Hunter,Dozier,3B,KC,CLE,KC@CLE,7:10PM EDT,7,5.2," "," "," "
+mlb.p.9784,Michael A.,Taylor,OF,KC,CLE,KC@CLE,7:10PM EDT,10,5.8," "," "," "
+mlb.p.9975,Hanser,Alberto,2B,KC,CLE,KC@CLE,7:10PM EDT,7,3.5," "," "," "
+mlb.p.10159,Andrew,Benintendi,OF,KC,CLE,KC@CLE,7:10PM EDT,13,7.3," "," "," "
+mlb.p.10298,Whit,Merrifield,2B,KC,CLE,KC@CLE,7:10PM EDT,17,8.4," "," "," "
+mlb.p.10418,Brad,Keller,P,KC,CLE,KC@CLE,7:10PM EDT,27,9.0,No," ",No
+mlb.p.10485,Ryan,O'Hearn,1B,KC,CLE,KC@CLE,7:10PM EDT,10,5.4," "," "," "
+mlb.p.10492,Josh,Staumont,P,KC,CLE,KC@CLE,7:10PM EDT,25,3.5,No," ",No
+mlb.p.10889,Richard,Lovelady,P,KC,CLE,KC@CLE,7:10PM EDT,25,4.2,No," ",No
+mlb.p.10998,Scott,Barlow,P,KC,CLE,KC@CLE,7:10PM EDT,25,4.5,No," ",No
+mlb.p.11319,Kris,Bubic,P,KC,CLE,KC@CLE,7:10PM EDT,30,8.2,No," ",No
+mlb.p.11321,Nicky,Lopez,SS,KC,CLE,KC@CLE,7:10PM EDT,11,5.1," "," "," "
+mlb.p.11323,Brady,Singer,P,KC,CLE,KC@CLE,7:10PM EDT,28,13.5,No," ",No
+mlb.p.11470,Carlos,Hernandez,P,KC,CLE,KC@CLE,7:10PM EDT,25,6.1,No," ",No
+mlb.p.11938,Sebastian,Rivero,C,KC,CLE,KC@CLE,7:10PM EDT,7,3.4," "," "," "
+mlb.p.12053,Jake,Brentz,P,KC,CLE,KC@CLE,7:10PM EDT,25,3.5,No," ",No
+mlb.p.8962,Bryan,Shaw,P,CLE,KC,KC@CLE,7:10PM EDT,25,3.7,No," ",No
+mlb.p.9185,Blake,Parker,P,CLE,KC,KC@CLE,7:10PM EDT,25,2.6,No," ",No
+mlb.p.9336,Austin,Hedges,C,CLE,KC,KC@CLE,7:10PM EDT,7,3.6," "," "," "
+mlb.p.9411,Cesar,Hernandez,2B,CLE,KC,KC@CLE,7:10PM EDT,17,7.3," "," "," "
+mlb.p.9507,Jose,Ramirez,3B,CLE,KC,KC@CLE,7:10PM EDT,20,9.1," "," "," "
+mlb.p.9761,Roberto,Perez,C,CLE,KC,KC@CLE,7:10PM EDT,10,5.4," "," "," "
+mlb.p.9862,Bradley,Zimmer,OF,CLE,KC,KC@CLE,7:10PM EDT,7,4.8," "," "," "
+mlb.p.10130,Nick,Wittgren,P,CLE,KC,KC@CLE,7:10PM EDT,25,3.3,No," ",No
+mlb.p.10207,Harold,Ramirez,OF,CLE,KC,KC@CLE,7:10PM EDT,14,6.1," "," "," "
+mlb.p.10233,Amed,Rosario,SS,CLE,KC,KC@CLE,7:10PM EDT,11,6.2," "," "," "
+mlb.p.10461,Bobby,Bradley,1B,CLE,KC,KC@CLE,7:10PM EDT,14,7.9," "," "," "
+mlb.p.10573,Cal,Quantrill,P,CLE,KC,KC@CLE,7:10PM EDT,28,5.0,No," ",No
+mlb.p.10729,Phil,Maton,P,CLE,KC,KC@CLE,7:10PM EDT,25,4.1,No," ",No
+mlb.p.11016,Franmil,Reyes,OF,CLE,KC,KC@CLE,7:10PM EDT,20,9.2," "," "," "
+mlb.p.11095,Oscar,Mercado,OF,CLE,KC,KC@CLE,7:10PM EDT,7,3.2," "," "," "
+mlb.p.11204,Sam,Hentges,P,CLE,KC,KC@CLE,7:10PM EDT,25,4.2,No," ",No
+mlb.p.11205,J.C.,Mejia,P,CLE,KC,KC@CLE,7:10PM EDT,25,6.2,No," ",No
+mlb.p.11357,Trevor,Stephan,P,CLE,KC,KC@CLE,7:10PM EDT,25,4.6,No," ",No
+mlb.p.11447,Eli,Morgan,P,CLE,KC,KC@CLE,7:10PM EDT,26,8.5,No," ",No
+mlb.p.11625,Emmanuel,Clase,P,CLE,KC,KC@CLE,7:10PM EDT,25,4.0,No," ",No
+mlb.p.11632,James,Karinchak,P,CLE,KC,KC@CLE,7:10PM EDT,25,5.2,No," ",No
+mlb.p.11892,Ernie,Clement,3B,CLE,KC,KC@CLE,7:10PM EDT,7,3.3," "," "," "
+mlb.p.11894,Nick,Sandlin,P,CLE,KC,KC@CLE,7:10PM EDT,25,5.0,No," ",No
+mlb.p.12217,Justin,Garza,P,CLE,KC,KC@CLE,7:10PM EDT,25,6.8,No," ",No
+mlb.p.11590,Zach,Plesac,P,CLE,KC,KC@CLE,7:10PM EDT,38,15.9,Yes,IL10,Yes
+mlb.p.10965,Daniel,Johnson,OF,CLE,KC,KC@CLE,7:10PM EDT,7,0.0," "," "," "
+mlb.p.11080,DJ,Johnson,P,CLE,KC,KC@CLE,7:10PM EDT,25,7.2,No," ",No
+mlb.p.11824,Owen,Miller,1B,CLE,KC,KC@CLE,7:10PM EDT,7,1.6," "," "," "
+mlb.p.11473,Emmanuel,Rivera,3B,KC,CLE,KC@CLE,7:10PM EDT,7,2.6," ",IL10," "
+mlb.p.8174,Wade,Davis,P,KC,CLE,KC@CLE,7:10PM EDT,25,1.6,No,IL10,No
+mlb.p.9581,Adalberto,Mondesi,SS,KC,CLE,KC@CLE,7:10PM EDT,20,11.3," ",IL10," "
+mlb.p.10781,Cam,Gallagher,C,KC,CLE,KC@CLE,7:10PM EDT,7,2.1," ",IL10," "
+mlb.p.11649,Ronald,Bolanos,P,KC,CLE,KC@CLE,7:10PM EDT,25,10.5,No,IL60,No
+mlb.p.11939,Daniel,Tillo,P,KC,CLE,KC@CLE,7:10PM EDT,25,0.0,No,IL60,No
+mlb.p.9721,Jesse,Hahn,P,KC,CLE,KC@CLE,7:10PM EDT,25,-6.7,No,IL60,No
+mlb.p.9591,Eddie,Rosario,OF,CLE,KC,KC@CLE,7:10PM EDT,7,6.6," ",IL10," "
+mlb.p.10572,Josh,Naylor,OF,CLE,KC,KC@CLE,7:10PM EDT,7,5.5," ",IL60," "
+mlb.p.10869,Aaron,Civale,P,CLE,KC,KC@CLE,7:10PM EDT,44,21.1,No,IL10,No
+mlb.p.10867,Shane,Bieber,P,CLE,KC,KC@CLE,7:10PM EDT,39,27.8,No,IL10,No
+mlb.p.10772,Jordan,Luplow,OF,CLE,KC,KC@CLE,7:10PM EDT,7,6.4," ",IL60," "
+mlb.p.11633,Cam,Hill,P,CLE,KC,KC@CLE,7:10PM EDT,25,3.3,No,IL60,No
+mlb.p.7163,Miguel,Cabrera,1B,DET,MIN,DET@MIN,8:10PM EDT,18,6.0," "," "," "
+mlb.p.9019,Wily,Peralta,P,DET,MIN,DET@MIN,8:10PM EDT,25,14.4,No," ",No
+mlb.p.9104,Jonathan,Schoop,1B,DET,MIN,DET@MIN,8:10PM EDT,22,7.6," "," "," "
+mlb.p.9135,Erasmo,Ramirez,P,DET,MIN,DET@MIN,8:10PM EDT,25,0.5,No," ",No
+mlb.p.9375,Jose,Cisnero,P,DET,MIN,DET@MIN,8:10PM EDT,25,3.6,No," ",No
+mlb.p.9378,Robbie,Grossman,OF,DET,MIN,DET@MIN,8:10PM EDT,20,8.0," "," "," "
+mlb.p.9636,Daniel,Norris,P,DET,MIN,DET@MIN,8:10PM EDT,25,2.0,No," ",No
+mlb.p.9786,Buck,Farmer,P,DET,MIN,DET@MIN,8:10PM EDT,25,1.5,No," ",No
+mlb.p.9931,Jose,Urena,P,DET,MIN,DET@MIN,8:10PM EDT,25,6.8,No," ",No
+mlb.p.10000,Nomar,Mazara,OF,DET,MIN,DET@MIN,8:10PM EDT,10,4.9," "," "," "
+mlb.p.10328,Jeimer,Candelario,3B,DET,MIN,DET@MIN,8:10PM EDT,18,6.5," "," "," "
+mlb.p.10468,Joe,Jimenez,P,DET,MIN,DET@MIN,8:10PM EDT,25,2.4,No," ",No
+mlb.p.10469,Tyler,Alexander,P,DET,MIN,DET@MIN,8:10PM EDT,25,4.3,No," ",No
+mlb.p.10472,Kyle,Funkhouser,P,DET,MIN,DET@MIN,8:10PM EDT,25,4.6,No," ",No
+mlb.p.10474,Matt,Manning,P,DET,MIN,DET@MIN,8:10PM EDT,25,2.3,No," ",No
+mlb.p.10481,Daz,Cameron,OF,DET,MIN,DET@MIN,8:10PM EDT,7,7.0," ",IL10," "
+mlb.p.10868,Willi,Castro,2B,DET,MIN,DET@MIN,8:10PM EDT,12,5.8," "," "," "
+mlb.p.10882,Gregory,Soto,P,DET,MIN,DET@MIN,8:10PM EDT,25,4.0,No," ",No
+mlb.p.10900,Jake,Rogers,C,DET,MIN,DET@MIN,8:10PM EDT,18,6.3," "," "," "
+mlb.p.10913,Akil,Baddoo,OF,DET,MIN,DET@MIN,8:10PM EDT,17,6.8," "," "," "
+mlb.p.11077,Eric,Haase,C,DET,MIN,DET@MIN,8:10PM EDT,23,8.2," "," "," "
+mlb.p.11083,Casey,Mize,P,DET,MIN,DET@MIN,8:10PM EDT,37,16.3,No," ",No
+mlb.p.11167,Harold,Castro,SS,DET,MIN,DET@MIN,8:10PM EDT,10,4.5," "," "," "
+mlb.p.11438,Zack,Short,SS,DET,MIN,DET@MIN,8:10PM EDT,16,7.1," "," "," "
+mlb.p.11763,Tarik,Skubal,P,DET,MIN,DET@MIN,8:10PM EDT,39,16.5,Yes," ",Yes
+mlb.p.10179,Michael,Fulmer,P,DET,MIN,DET@MIN,8:10PM EDT,30,5.4,No,IL10,No
+mlb.p.10810,Niko,Goodrum,SS,DET,MIN,DET@MIN,8:10PM EDT,13,6.0," "," "," "
+mlb.p.10011,Matthew,Boyd,P,DET,MIN,DET@MIN,8:10PM EDT,33,15.4,No,IL10,No
+mlb.p.8406,Derek,Holland,P,DET,MIN,DET@MIN,8:10PM EDT,25,2.1,No,IL10,No
+mlb.p.11710,Rony,Garcia,P,DET,MIN,DET@MIN,8:10PM EDT,25,5.1,No,IL60,No
+mlb.p.10180,Spencer,Turnbull,P,DET,MIN,DET@MIN,8:10PM EDT,36,19.3,No,IL60,No
+mlb.p.10836,Victor,Reyes,OF,DET,MIN,DET@MIN,8:10PM EDT,7,3.6," ",IL10," "
+mlb.p.8846,Julio,Teheran,P,DET,MIN,DET@MIN,8:10PM EDT,31,16.7,No,IL60,No
+mlb.p.7681,Nelson,Cruz,OF,MIN,DET,DET@MIN,8:10PM EDT,23,8.5," "," "," "
+mlb.p.8061,J.A.,Happ,P,MIN,DET,DET@MIN,8:10PM EDT,29,10.2,Yes," ",Yes
+mlb.p.8723,Josh,Donaldson,3B,MIN,DET,DET@MIN,8:10PM EDT,19,7.7," ",DTD," "
+mlb.p.9110,Miguel,Sano,1B,MIN,DET,DET@MIN,8:10PM EDT,14,6.6," "," "," "
+mlb.p.9201,Andrelton,Simmons,SS,MIN,DET,DET@MIN,8:10PM EDT,7,4.8," "," "," "
+mlb.p.9402,Caleb,Thielbar,P,MIN,DET,DET@MIN,8:10PM EDT,25,4.4,No," ",No
+mlb.p.9413,Alex,Colome,P,MIN,DET,DET@MIN,8:10PM EDT,25,2.4,No," ",No
+mlb.p.9750,Jorge,Polanco,2B,MIN,DET,DET@MIN,8:10PM EDT,15,7.4," "," "," "
+mlb.p.9844,Danny,Coulombe,P,MIN,DET,DET@MIN,8:10PM EDT,25,6.5,No," ",No
+mlb.p.9872,Jose,Berrios,P,MIN,DET,DET@MIN,8:10PM EDT,44,21.3,No," ",No
+mlb.p.9874,Nick,Gordon,OF,MIN,DET,DET@MIN,8:10PM EDT,7,4.7," "," "," "
+mlb.p.9938,Hansel,Robles,P,MIN,DET,DET@MIN,8:10PM EDT,25,2.9,No," ",No
+mlb.p.10039,Tyler,Duffey,P,MIN,DET,DET@MIN,8:10PM EDT,25,2.5,No," ",No
+mlb.p.10095,Max,Kepler,OF,MIN,DET,DET@MIN,8:10PM EDT,18,8.2," "," "," "
+mlb.p.10105,Kenta,Maeda,P,MIN,DET,DET@MIN,8:10PM EDT,28,13.6,No," ",No
+mlb.p.10133,Taylor,Rogers,P,MIN,DET,DET@MIN,8:10PM EDT,25,4.8,No," ",No
+mlb.p.10269,Derek,Law,P,MIN,DET,DET@MIN,8:10PM EDT,25,3.6,No," ",No
+mlb.p.10532,Alex,Kirilloff,1B,MIN,DET,DET@MIN,8:10PM EDT,12,6.8," "," "," "
+mlb.p.10533,Ben,Rortvedt,C,MIN,DET,DET@MIN,8:10PM EDT,7,2.3," "," "," "
+mlb.p.11221,Luis,Arraez,3B,MIN,DET,DET@MIN,8:10PM EDT,11,6.4," "," "," "
+mlb.p.11344,Jorge,Alcala,P,MIN,DET,DET@MIN,8:10PM EDT,25,2.8,No," ",No
+mlb.p.11345,Gilberto,Celestino,OF,MIN,DET,DET@MIN,8:10PM EDT,7,3.6," "," "," "
+mlb.p.11347,Trevor,Larnach,OF,MIN,DET,DET@MIN,8:10PM EDT,16,6.8," "," "," "
+mlb.p.11794,Ryan,Jeffers,C,MIN,DET,DET@MIN,8:10PM EDT,10,5.8," "," "," "
+mlb.p.12096,Bailey,Ober,P,MIN,DET,DET@MIN,8:10PM EDT,27,13.0,No," ",No
+mlb.p.10755,Luke,Farrell,P,MIN,DET,DET@MIN,8:10PM EDT,25,4.8,No,IL10,No
+mlb.p.9590,Byron,Buxton,OF,MIN,DET,DET@MIN,8:10PM EDT,7,11.9," ",IL10," "
+mlb.p.11629,Randy,Dobnak,P,MIN,DET,DET@MIN,8:10PM EDT,25,3.3,No,IL10,No
+mlb.p.8759,Michael,Pineda,P,MIN,DET,DET@MIN,8:10PM EDT,38,15.1,No," ",No
+mlb.p.9851,Rob,Refsnyder,OF,MIN,DET,DET@MIN,8:10PM EDT,9,6.9," ",IL10," "
+mlb.p.11586,Kyle,Garlick,OF,MIN,DET,DET@MIN,8:10PM EDT,10,5.4," ",IL10," "
+mlb.p.10789,Mitch,Garver,C,MIN,DET,DET@MIN,8:10PM EDT,10,6.5," ",IL10," "
+mlb.p.11616,Cody,Stashak,P,MIN,DET,DET@MIN,8:10PM EDT,25,3.4,No,IL60,No
+mlb.p.11017,Jake,Cave,OF,MIN,DET,DET@MIN,8:10PM EDT,7,3.3," ",IL60," "
+mlb.p.11592,Devin,Smeltzer,P,MIN,DET,DET@MIN,8:10PM EDT,25,16.4,No,IL10,No
+mlb.p.11961,Edwar,Colina,P,MIN,DET,DET@MIN,8:10PM EDT,25,-10.4,No,IL60,No
+mlb.p.9423,Ian,Krol,P,DET,MIN,DET@MIN,8:10PM EDT,25,0.0,No," ",No
